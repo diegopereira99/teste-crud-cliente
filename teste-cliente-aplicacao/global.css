@@ -1,0 +1,31 @@
+nav {
+    height: 50px;
+}
+.title-page {
+    margin-top: 5px;
+    font-size: 25px;
+    color: white !important;
+}
+thead {
+    font-size: 15px;
+    text-align: center;
+}
+tbody td {
+    font-size: 14px;
+}
+
+th {
+    border-top: none !important;
+}
+.info-text {
+    color: red;
+    font-size: 12px;
+    margin-right: 25px;
+}
+table, tbody, thead {
+    min-width: 100% !important;
+    
+}
+.modal-content {
+    padding: 25px;
+}

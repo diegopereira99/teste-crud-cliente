@@ -71,10 +71,10 @@
             domFunctions.setLoading(false);        
         },
         fillFieldByCep: (data) => {
-            document.querySelector("#bairro").value = data.bairro;
-            document.querySelector("#cidade").value = data.localidade;
-            document.querySelector("#estado").value = data.uf;
-            document.querySelector("#endereco").value = data.logradouro;
+            document.querySelector("#bairro").value = data.bairro || '';
+            document.querySelector("#cidade").value = data.localidade || '';
+            document.querySelector("#estado").value = data.uf || '';
+            document.querySelector("#endereco").value = data.logradouro || '';
         }
         
     }
